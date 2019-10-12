@@ -1,0 +1,68 @@
+@primary-color: #0fb6d3; // 全局主色
+@link-color: #0fb6d3; // 链接色
+@success-color: #52c41a; // 成功色
+@warning-color: #faad14; // 警告色
+@error-color: #f5222d; // 错误色
+@font-size-base: 14px; // 主字号
+@heading-color: rgba(0, 0, 0, 0.85); // 标题色
+@text-color: rgba(0, 0, 0, 0.65); // 主文本色
+@text-color-secondary : rgba(0, 0, 0, .45); // 次文本色
+@disabled-color : rgba(0, 0, 0, .25); // 失效色
+@border-radius-base: 4px; // 组件/浮层圆角
+@border-color-base: #d9d9d9; // 边框色
+@box-shadow-base: 0 2px 8px rgba(0, 0, 0, 0.15); // 浮层阴影
+
+/* 行为相关颜色 */
+@hx-color-primary: #0091d7;
+@hx-color-success: #00dad7;
+@hx-color-warning: #dc7c00;
+@hx-color-error: #fe4545;
+
+/* 文字基本颜色 */
+@hx-text-color: #333; //基本色
+@hx-text-color-inverse: #fff; //反色
+@hx-text-color-grey: #666;
+@hx-text-color-placeholder: #999;
+@hx-text-color-disable: #c0c0c0;
+
+// 边框颜色
+@hx-border-color: #efefef;
+
+/* 背景颜色 */
+@hx-bg-color: #ffffff;
+@hx-bg-color-grey: #f8f8f8;
+@hx-bg-color-hover: #f1f1f1; //点击状态颜色
+@hx-bg-color-mask: rgba(0, 0, 0, 0.4); //遮罩颜色
+@hx-bg-color-shadow: #dad5d5;
+
+/* 文章场景相关 */
+@hx-color-title: #2c405a; // 文章标题颜色
+@hx-font-size-title: 40rpx;
+@hx-color-subtitle: #555555; // 二级标题颜色
+@hx-font-size-subtitle: 36rpx;
+@hx-color-paragraph: #3f536e; // 文章段落颜色
+@hx-font-size-paragraph: 30rpx;
+
+/* 背景渐变 */
+@bg-primary: linear-gradient(to left, @hx-color-primary, @hx-color-success);
+@bg-error: linear-gradient(to left, #fc4f5e, #fe6e9a);
+
+.color-primary {
+  color: @hx-color-primary;
+}
+
+.color-success {
+  color: @hx-color-success;
+}
+
+.color-warning {
+  color: @hx-color-warning;
+}
+
+.color-error {
+  color: @hx-color-error;
+}
+
+.box-shadow {
+  box-shadow: 0 0 20px 0 @hx-bg-color-shadow;
+}

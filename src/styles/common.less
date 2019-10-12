@@ -1,0 +1,70 @@
+@import '~antd/dist/antd.less';
+@import './variable.less';
+
+#root {
+  height: 100%;
+}
+.ant-layout.ant-layout-has-sider {
+  height: 100%;
+}
+.ant-menu-inline-collapsed > .ant-menu-item,
+.ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-item,
+.ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title {
+  left: 0 !important;
+  padding: 0px 20px !important;
+  text-overflow: ellipsis !important;
+}
+
+/* flex */
+.flex {
+  display: flex;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexRowRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+/* color */
+.color-stress {
+  color: #f0ad4e;
+}
+
+/* margin */
+.mgt10 {
+  margin-top: 10px;
+}
+
+.mgt20 {
+  margin-top: 20px;
+}
+
+/* padding */
+.pdt10 {
+  padding-top: 10px;
+}
+
+.pdt20 {
+  padding-top: 20px;
+}
+
+/* ellipsis */
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+
